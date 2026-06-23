@@ -1,5 +1,0 @@
-transformers>=5    # collect.py: runs Gemma
-torch>=2.7         # needed by transformers (NVIDIA GPU: install the matching CUDA build)
-torchvision>=0.22  # image preprocessing for Gemma's vision input
-pymupdf>=1.24      # crop_figures.py: render exam PDFs -> screenshot crops
-pillow>=10         # crop_figures.py: stitch multi-figure questions
